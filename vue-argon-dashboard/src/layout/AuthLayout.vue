@@ -91,7 +91,7 @@
           <li class="nav-item">
             <a
               class="nav-link nav-link-icon"
-              href="https://github.com/creativetimofficial/ct-vue-argon-dashboard-pro-laravel"
+              href="https://github.com/creativetimofficial/ct-vue-argon-dashboard-pro-laravel-bs4"
               target="_blank"
               data-toggle="tooltip"
               data-original-title="Star us on Github"
@@ -102,7 +102,7 @@
           </li>
           <li class="nav-item d-none d-lg-block ml-lg-4">
             <a
-              href="https://www.creative-tim.com/product/vue-argon-dashboard-laravel"
+              href="https://www.creative-tim.com/product/vue-argon-dashboard-laravel-bs4"
               target="_blank"
               class="btn btn-neutral btn-icon"
             >

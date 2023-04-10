@@ -1,6 +1,6 @@
-# [Vue Argon Dashboard Laravel](https://vue-argon-dashboard-laravel.creative-tim.com/?ref=vadl-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Vue%20Argon%20Dashboard%20Laravel%E2%9D%A4%EF%B8%8F%0Ahttps%3A//vue-argon-dashboard-laravel.creative-tim.com/%20%23%vue%20%23%argon%20%23design%20%23dashboard%20%23laravel%20via%20%40CreativeTim)
+# [Vue Argon Dashboard Laravel](https://vue-argon-dashboard-laravel-bs4.creative-tim.com/?ref=vadl-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Vue%20Argon%20Dashboard%20Laravel%E2%9D%A4%EF%B8%8F%0Ahttps%3A//vue-argon-dashboard-laravel-bs4.creative-tim.com/%20%23%vue%20%23%argon%20%23design%20%23dashboard%20%23laravel%20via%20%40CreativeTim)
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/vue-argon-dashboard-laravel.svg?maxAge=2592000)](https://github.com/creativetimofficial/vue-argon-dashboard-laravel/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/vue-argon-dashboard-laravel/vue-argon-dashboard-laravel.svg?maxAge=2592000)](https://github.com/creativetimofficial/vue-argon-dashboard-laravel/issues?q=is%3Aissue+is%3Aclosed)
+![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/vue-argon-dashboard-laravel-bs4.svg?maxAge=2592000)](https://github.com/creativetimofficial/vue-argon-dashboard-laravel-bs4/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/vue-argon-dashboard-laravel-bs4/vue-argon-dashboard-laravel-bs4.svg?maxAge=2592000)](https://github.com/creativetimofficial/vue-argon-dashboard-laravelbs4/issues?q=is%3Aissue+is%3Aclosed)
 
 _Frontend version_: Argon Dashboard v1.2.0. More info at https://www.creative-tim.com/product/argon-dashboard-pro
 
@@ -32,7 +32,7 @@ JSON:API is a specification for how a client should request that resources be fe
 ### JSON:API backend
 The Laravel JSON:API backend project requires a proper multi-threaded web server such as Apache/Nginx environment with PHP, Composer and MySQL.
 
-**Do not use `php artisan serve` as it will result in stalled requests due to the single-threaded nature of the built-in PHP web server.** 
+**Do not use `php artisan serve` as it will result in stalled requests due to the single-threaded nature of the built-in PHP web server.**
 
 We strongly recommend using [Laradock](https://laradock.io/) for Linux and Mac or [Laragon](https://laragon.org/download/) for Windows if possible.
 
@@ -526,19 +526,19 @@ export default {
 
 | Vue                                                                                                                                                                                               | Vue & Laravel                                                                                                                                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Vue Argon Dashboard](<https://s3.amazonaws.com/creativetim_bucket/products/156/thumb/opt_ad_vue_thumbnail_(2).jpg>)](https://www.creative-tim.com/product/vue-argon-dashboard?ref=vadl-readme) | [![Vue Argon Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/352/thumb/opt_ad_vue_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/vue-argon-dashboard-laravel?ref=vadl-readme) |
+| [![Vue Argon Dashboard](<https://s3.amazonaws.com/creativetim_bucket/products/156/thumb/opt_ad_vue_thumbnail_(2).jpg>)](https://www.creative-tim.com/product/vue-argon-dashboard?ref=vadl-readme) | [![Vue Argon Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/352/thumb/opt_ad_vue_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/vue-argon-dashboard-laravel-bs4?ref=vadl-readme) |
 
 ## Demo
 
 | Register                                                                                                                                                                                                          | Login                                                                                                                                                                                                    | Dashboard                                                                                                                                                                                                   |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Register](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel/register.png)](https://vue-argon-dashboard-laravel.creative-tim.com/register?ref=vadl-readme) | [![Login](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel/login.png)](https://vue-argon-dashboard-laravel.creative-tim.com/login?ref=vadl-readme) | [![Dashboard](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel/dashboard.png)](https://vue-argon-dashboard-laravel.creative-tim.com/?ref=vadl-readme) |
+| [![Register](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel-bs4/register.png)](https://vue-argon-dashboard-laravel-bs4.creative-tim.com/register?ref=vadl-readme) | [![Login](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel-bs4/login.png)](https://vue-argon-dashboard-laravel-bs4.creative-tim.com/login?ref=vadl-readme) | [![Dashboard](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel-bs4/dashboard.png)](https://vue-argon-dashboard-laravel-bs4.creative-tim.com/?ref=vadl-readme) |
 
 | Profile Page                                                                                                                                                                                                                      | Users Page                                                                                                                                                                                                                                  | Tables Page                                                                                                                                                                                                      |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Profile Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel/profile.png)](https://vue-argon-dashboard-laravel.creative-tim.com/examples/user-profile?ref=vadl-readme) | [![Users Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel/users.png)](https://vue-argon-dashboard-laravel.creative-tim.com/examples/user-management/list-users?ref=vadl-readme) | [![Tables Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel/tables.png)](https://vue-argon-dashboard-laravel.creative-tim.com/tables?ref=vadl-readme) |
+| [![Profile Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel-bs4/profile.png)](https://vue-argon-dashboard-laravel-bs4.creative-tim.com/examples/user-profile?ref=vadl-readme) | [![Users Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel-bs4/users.png)](https://vue-argon-dashboard-laravel-bs4.creative-tim.com/examples/user-management/list-users?ref=vadl-readme) | [![Tables Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel-bs4/tables.png)](https://vue-argon-dashboard-laravel-bs4.creative-tim.com/tables?ref=vadl-readme) |
 
-[View More](https://vue-argon-dashboard-laravel.creative-tim.com/?ref=vadl-readme)
+[View More](https://vue-argon-dashboard-laravel-bs4.creative-tim.com/?ref=vadl-readme)
 
 ## Documentation
 
@@ -694,12 +694,12 @@ At present, we officially aim to support the last two versions of the following 
 
 ## Resources
 
-- Demo: <https://vue-argon-dashboard-laravel.creative-tim.com/?ref=vadl-readme>
-- Download Page: <https://www.creative-tim.com/product/vue-argon-dashboard-laravel?ref=vadl-readme>
-- Documentation: <https://vue-argon-dashboard-laravel.creative-tim.com/documentation?ref=vadl-readme>
+- Demo: <https://vue-argon-dashboard-laravel-bs4.creative-tim.com/?ref=vadl-readme>
+- Download Page: <https://www.creative-tim.com/product/vue-argon-dashboard-laravel-bs4?ref=vadl-readme>
+- Documentation: <https://vue-argon-dashboard-laravel-bs4.creative-tim.com/documentation?ref=vadl-readme>
 - License Agreement: <https://www.creative-tim.com/license>
 - Support: <https://www.creative-tim.com/contact-us>
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/vue-argon-dashboard-laravel/issues)
+- Issues: [Github Issues Page](https://github.com/creativetimofficial/vue-argon-dashboard-laravel-bs4/issues)
 - **Dashboards:**
 
 | HTML                                                                                                                                                                                | Laravel                                                                                                                                                                                                 |
@@ -708,7 +708,7 @@ At present, we officially aim to support the last two versions of the following 
 
 | Vue                                                                                                                                                                                               | Vue & Laravel                                                                                                                                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Vue Argon Dashboard](<https://s3.amazonaws.com/creativetim_bucket/products/156/thumb/opt_ad_vue_thumbnail_(2).jpg>)](https://www.creative-tim.com/product/vue-argon-dashboard?ref=vadl-readme) | [![Vue Argon Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/352/thumb/opt_ad_vue_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/vue-argon-dashboard-laravel?ref=vadl-readme) |
+| [![Vue Argon Dashboard](<https://s3.amazonaws.com/creativetim_bucket/products/156/thumb/opt_ad_vue_thumbnail_(2).jpg>)](https://www.creative-tim.com/product/vue-argon-dashboard?ref=vadl-readme) | [![Vue Argon Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/352/thumb/opt_ad_vue_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/vue-argon-dashboard-laravel-bs4?ref=vadl-readme) |
 
 ## Change log
 

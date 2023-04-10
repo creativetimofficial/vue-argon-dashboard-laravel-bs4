@@ -62,7 +62,7 @@
         />
 
         <a
-          href="https://www.creative-tim.com/product/vue-argon-dashboard-pro-laravel"
+          href="https://www.creative-tim.com/product/vue-argon-dashboard-pro-laravel-bs4"
           target="_blank"
           class="btn btn-sm btn-danger btn-icon ml-sm-3 d-none d-md-block mb-2 mt-1"
           ><span class="btn-inner--icon"
@@ -72,7 +72,7 @@
         >
 
         <a
-          href="https://vue-argon-dashboard-laravel.creative-tim.com/documentation/"
+          href="https://vue-argon-dashboard-laravel-bs4.creative-tim.com/documentation/"
           target="_blank"
           class="btn btn-sm btn-neutral btn-icon ml-sm-3 d-none d-md-block mb-2"
           ><span class="btn-inner--icon"
@@ -82,7 +82,7 @@
         >
 
         <a
-          href="https://www.creative-tim.com/product/vue-argon-dashboard-laravel"
+          href="https://www.creative-tim.com/product/vue-argon-dashboard-laravel-bs4"
           target="_blank"
           class="btn btn-sm btn-info btn-icon ml-sm-3 d-none d-md-block mb-2"
           ><span class="btn-inner--icon"><i class="fas fa-gift mr-2"></i></span>
@@ -90,7 +90,7 @@
         >
 
         <a
-          href="https://github.com/creativetimofficial/vue-argon-dashboard-laravel"
+          href="https://github.com/creativetimofficial/vue-argon-dashboard-laravel-bs4"
           target="_blank"
           class="btn btn-sm btn-dark btn-icon ml-sm-3 d-none d-md-block mr-2"
           ><span class="btn-inner--icon"
