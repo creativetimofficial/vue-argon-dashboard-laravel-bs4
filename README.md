@@ -528,7 +528,7 @@ export default {
 
 | Vue                                                                                                                                                                                               | Vue & Laravel                                                                                                                                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Vue Argon Dashboard](<https://s3.amazonaws.com/creativetim_bucket/products/156/thumb/opt_ad_vue_thumbnail_(2).jpg>)](https://www.creative-tim.com/product/vue-argon-dashboard?ref=vadl-readme) | [![Vue Argon Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/352/thumb/opt_ad_vue_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/vue-argon-dashboard-laravel-bs4?ref=vadl-readme) |
+| [![Vue Argon Dashboard](<https://s3.amazonaws.com/creativetim_bucket/products/156/thumb/opt_ad_vue_thumbnail_(2).jpg>)](https://www.creative-tim.com/product/vue-argon-dashboard?ref=vadl-readme) | [![Vue Argon Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/692/thumb/opt_ad_vue_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/vue-argon-dashboard-laravel-bs4?ref=vadl-readme) |
 
 ## Demo
 
@@ -710,7 +710,7 @@ At present, we officially aim to support the last two versions of the following 
 
 | Vue                                                                                                                                                                                               | Vue & Laravel                                                                                                                                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Vue Argon Dashboard](<https://s3.amazonaws.com/creativetim_bucket/products/156/thumb/opt_ad_vue_thumbnail_(2).jpg>)](https://www.creative-tim.com/product/vue-argon-dashboard?ref=vadl-readme) | [![Vue Argon Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/352/thumb/opt_ad_vue_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/vue-argon-dashboard-laravel-bs4?ref=vadl-readme) |
+| [![Vue Argon Dashboard](<https://s3.amazonaws.com/creativetim_bucket/products/156/thumb/opt_ad_vue_thumbnail_(2).jpg>)](https://www.creative-tim.com/product/vue-argon-dashboard?ref=vadl-readme) | [![Vue Argon Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/692/thumb/opt_ad_vue_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/vue-argon-dashboard-laravel-bs4?ref=vadl-readme) |
 
 ## Change log
 
