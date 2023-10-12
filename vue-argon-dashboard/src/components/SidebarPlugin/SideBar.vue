@@ -1,8 +1,5 @@
 <template>
-  <nav
-    class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white"
-    id="sidenav-main"
-  >
+  <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">
     <div class="container-fluid">
       <!--Toggler-->
       <navbar-toggle-button @click.native="showSidebar">
@@ -15,15 +12,8 @@
       <slot name="mobile-right">
         <ul class="nav align-items-center d-md-none">
           <base-dropdown class="nav-item" position="right">
-            <a
-              slot="title"
-              class="nav-link nav-link-icon"
-              href="#"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
+            <a slot="title" class="nav-link nav-link-icon" href="#" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               <i class="ni ni-bell-55"></i>
             </a>
 
@@ -35,12 +25,9 @@
           <base-dropdown class="nav-item" position="right">
             <a href="#" slot="title" class="nav-link" @click.prevent>
               <div class="media align-items-center">
-                <span
-                  class="avatar avatar-sm rounded-circle avatar-image"
-                  :style="{
-                    'background-image': `url('${profileImage}')`,
-                  }"
-                >
+                <span class="avatar avatar-sm rounded-circle avatar-image" :style="{
+                  'background-image': `url('${profileImage}')`,
+                }">
                 </span>
               </div>
             </a>
@@ -61,11 +48,7 @@
         </ul>
       </slot>
       <slot></slot>
-      <div
-        v-show="$sidebar.showSidebar"
-        class="navbar-collapse collapse show"
-        id="sidenav-collapse-main"
-      >
+      <div v-show="$sidebar.showSidebar" class="navbar-collapse collapse show" id="sidenav-collapse-main">
         <div class="navbar-collapse-header d-md-none">
           <div class="row">
             <div class="col-6 collapse-brand">
@@ -74,9 +57,7 @@
               </router-link>
             </div>
             <div class="col-6 collapse-close">
-              <navbar-toggle-button
-                @click.native="closeSidebar"
-              ></navbar-toggle-button>
+              <navbar-toggle-button @click.native="closeSidebar"></navbar-toggle-button>
             </div>
           </div>
         </div>
@@ -126,7 +107,16 @@ export default {
         this.avatar = me.profile_image;
       }
     );
-    await this.$store.dispatch("profile/me");
+
+    try {
+      await this.$store.dispatch("profile/me");
+    } catch (error) {
+      try {
+        await this.$store.dispatch("logout");
+      } finally {
+        this.$router.push("/login");
+      }
+    }
   },
   computed: {
     profileImage() {

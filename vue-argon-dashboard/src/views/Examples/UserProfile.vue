@@ -50,8 +50,16 @@ export default {
 
   methods: {
     async getProfile() {
-      await this.$store.dispatch("profile/me");
-      this.user = await { ...this.$store.getters["profile/me"] };
+      try {
+        await this.$store.dispatch("profile/me");
+        this.user = await { ...this.$store.getters["profile/me"] };
+      } catch (error) {
+        try {
+          await this.$store.dispatch("logout");
+        } finally {
+          this.$router.push("/login");
+        }
+      }
     },
   },
 };

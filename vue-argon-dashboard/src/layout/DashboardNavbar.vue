@@ -78,7 +78,16 @@ export default {
         this.avatar = me.profile_image;
       }
     );
-    await this.$store.dispatch("profile/me");
+
+    try {
+      await this.$store.dispatch("profile/me");
+    } catch (error) {
+      try {
+        await this.$store.dispatch("logout");
+      } finally {
+        this.$router.push("/login");
+      }
+    }
   },
   computed: {
     profileImage() {
